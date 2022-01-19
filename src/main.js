@@ -135,7 +135,8 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     date: dateTime,
     ...extraMetadata,
-    attributes: attributesList,
+    // Ignore the base layer of the body
+    attributes: attributesList.filter(attr => attr.trait_type !== "Body"),
     compiler: "HashLips Art Engine",
   };
   if (network == NETWORK.sol) {
