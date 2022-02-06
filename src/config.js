@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Pabo";
 const description = "Pabo is just trying to have a good time";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmYKQA65nVZ1VPz51L1EViU524iNDYe88oyKmAwGDNEgf8";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -85,7 +85,7 @@ const uniqueDnaTorrance = 10000;
 
 const preview = {
   thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbWidth: 2732 / 2,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
